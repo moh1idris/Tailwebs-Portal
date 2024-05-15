@@ -1,0 +1,48 @@
+.fontclass{
+    font-family: "Space Grotesk", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+}
+
+
+.mainHeader{
+    color: #e12b34 !important;
+    font-size: 26px !important;
+}
+.mainHeader1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+        font-size: 22px !important;
+}
+
+.logoutbtn{
+    background-color: transparent !important;
+    border-radius: 0px !important;
+    border:none !important;
+    font-size: 22px !important;
+    cursor: pointer;
+}
+
+
+@media (max-width: 480px) {
+.mainHeader {
+    color: #e12b34 !important;
+    font-size: 18px !important;
+}
+.mainHeader1 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px !important;
+    align-items: center;
+}
+.logoutbtn {
+    background-color: transparent !important;
+    border-radius: 0px !important;
+    border: none !important;
+    font-size: 18px !important;
+    cursor: pointer;
+}
+
+}

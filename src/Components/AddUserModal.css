@@ -1,0 +1,40 @@
+.textHead {
+  font-family: "Space Grotesk", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-style: normal !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  margin: 5px 0px !important;
+}
+.addbtn {
+  background-color: #2c2e2f !important;
+  border-radius: 0px !important;
+  padding: 5px 50px !important;
+}
+
+.addlockk {
+  border-right: 1px solid rgb(98 94 94 / 87%);
+  padding-right: 5px;
+}
+
+.editfrom {
+  width: 30vw !important;
+}
+@media (max-width: 480px) {
+  .editfrom {
+    width: 70vw !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .editfrom {
+      width: 55vw  !important;
+    }
+    }
+  
+  
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .editfrom {
+          width: 50vw  !important;
+        }
+    }
